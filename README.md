@@ -18,6 +18,15 @@ The workflow assists researchers by providing structured scientific feedback acr
 
 The system prioritizes scientific accuracy, reproducibility, transparency, and evidence-based recommendations while preserving the author's intended scientific meaning.
 
+## Technologies
+
+- Large Language Models (LLMs)
+- Prompt Engineering
+- Structured Evaluation Frameworks
+- Biomedical Research Methodology
+- Scientific Writing & Editing
+- Reporting Guideline Frameworks (STROBE, TRIPOD)
+
 ## Features
 
 - Scientific manuscript review
