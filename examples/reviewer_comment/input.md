@@ -1,20 +1,21 @@
-# Statistical Review
+# Reviewer Response Drafting
 
 ## Review Objective
 
-Review the statistical interpretation below for scientific accuracy and appropriate interpretation.
+Draft a professional, evidence-based response to the reviewer comment below.
 
-Evaluate whether:
+The response should:
 
-- the statistical conclusions are supported by the reported results,
-- the interpretation accurately reflects the evidence,
-- any statistical or clinical claims are overstated,
-- and whether revisions are scientifically justified.
+- address the reviewer's concern directly,
+- explain the scientific rationale,
+- describe any manuscript revisions made,
+- remain professional and respectful,
+- avoid defensive language.
 
-If additional issues outside the requested review are identified, briefly note them under **Additional Observations** without performing a full manuscript review.
+If the reviewer identifies a legitimate limitation, acknowledge it appropriately and describe how it was addressed.
 
 ---
 
-## Results
+## Reviewer Comment
 
-The addition of sTREM-1 and IL-8 to LODS improved the AUC from 0.84 to 0.88. The combined model demonstrated excellent clinical utility and should be adopted for clinical decision-making. Continuous NRI was 0.85, indicating substantial improvement in prediction.
+"The feature selection strategy is unclear and may introduce optimism bias. Please clarify how biomarkers were selected and whether feature selection was performed independently from model evaluation."
