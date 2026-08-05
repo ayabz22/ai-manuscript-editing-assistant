@@ -1,4 +1,4 @@
-# AI Manuscript Editing Assistant
+# AI Scientific Research Assistant
 
 An AI-assisted workflow for reviewing biomedical research manuscripts with an emphasis on scientific rigor, methodological quality, reporting-guideline compliance, and publication readiness.
 
