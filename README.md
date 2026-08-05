@@ -1,53 +1,79 @@
 # AI Scientific Research Assistant
 
-An AI-assisted workflow for reviewing biomedical research manuscripts with an emphasis on scientific rigor, methodological quality, reporting-guideline compliance, and publication readiness.
+## Writing a biomedical manuscript is hard. Writing one that survives peer review is even harder.
 
-## Overview
+Whether you're a Master's student, PhD student, clinician, or researcher, you've probably asked yourself:
 
-The AI Manuscript Editing Assistant is designed to function as a senior biomedical research collaborator rather than a general writing assistant.
+- ❓ Does this citation actually support what I just wrote?
+- ❓ Am I overstating the findings of this paper?
+- ❓ Would Reviewer #2 challenge this conclusion?
+- ❓ Am I accidentally implying causation instead of association?
+- ❓ Does my Results section actually match my Methods?
+- ❓ Am I missing important STROBE or TRIPOD reporting items?
+- ❓ Are my figures, tables, and manuscript text all consistent?
 
-The workflow assists researchers by providing structured scientific feedback across multiple stages of manuscript development, including:
+General AI writing tools can improve grammar and readability.
 
-- Scientific editing
-- Methodological review
-- Statistical review
-- Literature synthesis
-- Reporting-guideline compliance (e.g., STROBE, TRIPOD)
-- Reviewer-response drafting
-- Figure and table consistency checks
+They **cannot reliably determine whether your scientific claims are actually supported by the cited evidence.**
 
-The system prioritizes scientific accuracy, reproducibility, transparency, and evidence-based recommendations while preserving the author's intended scientific meaning.
+This project was built to bridge that gap.
 
-## Technologies
+The **AI Scientific Research Assistant** is designed to function as an AI-assisted scientific collaborator rather than a paper-writing tool. Its purpose is **not** to generate manuscripts or replace scientific judgment, but to help researchers critically review, strengthen, and validate their own work before submission.
 
-- Large Language Models (LLMs)
-- Prompt Engineering
-- Structured Evaluation Frameworks
-- Biomedical Research Methodology
-- Scientific Writing & Editing
-- Reporting Guideline Frameworks (STROBE, TRIPOD)
+---
 
-## Features
+## Core Capabilities
 
-- Scientific manuscript review
-- Biomedical writing improvement
-- Methodological critique
-- Statistical interpretation review
-- Citation verification
-- Reporting-guideline assessment
-- Publication-readiness evaluation
-- Structured reviewer-response assistance
+The AI Scientific Research Assistant supports researchers throughout multiple stages of manuscript development by providing structured scientific feedback, including:
 
-## Current Status
+### ✍️ Scientific Writing & Editing
+- Improve clarity, logical flow, and scientific tone
+- Reduce redundancy while preserving the author's intended meaning
+- Strengthen readability without rewriting the manuscript for the researcher
 
-🚧 Active development
+### 📚 Citation & Evidence Verification *(Core Feature)*
+- Verify that cited references accurately support manuscript claims
+- Detect unsupported or overstated conclusions
+- Distinguish association from causation
+- Flag citation mismatches, evidence gaps, and unsupported numerical claims
+- Assess citation integrity to help prevent inaccurate attribution and improve research accuracy
 
-Version 1 focuses on prompt-engineered workflows for scientific manuscript review.
+### 🔬 Methodological Review
+- Evaluate study design and methodological rigor
+- Identify potential sources of bias, confounding, and threats to validity
+- Review feature selection, missing-data handling, and reproducibility
 
-Future versions will include:
+### 📊 Statistical Review
+- Assess interpretation of statistical analyses
+- Review discrimination, calibration, confidence intervals, and model performance
+- Identify inconsistencies between the Methods, Results, and Conclusions
 
-- Streamlit interface
-- Document upload
-- Automated report generation
-- Modular review agents
-- API integration
+### 📖 Literature Synthesis
+- Compare findings across multiple studies
+- Summarize evidence objectively
+- Identify areas of agreement, disagreement, and remaining research gaps
+
+### ✅ Reporting Guideline Compliance
+- Review manuscripts against reporting standards such as STROBE and TRIPOD
+- Identify missing reporting elements before journal submission
+
+### 📑 Publication Readiness
+- Review figure and table consistency
+- Draft reviewer-response suggestions
+- Identify issues likely to be raised during peer review
+- Provide structured recommendations to improve publication readiness
+
+---
+
+## Research Philosophy
+
+This assistant is designed to **review, question, and strengthen** scientific work—not create it.
+
+It will **not**:
+- Generate research findings
+- Fabricate citations or references
+- Invent statistical results
+- Write complete manuscripts without researcher input
+- Replace scientific judgment or peer review
+
+The researcher remains responsible for every scientific claim, interpretation, and conclusion. The assistant's role is to act as a critical scientific collaborator that helps identify weaknesses, verify supporting evidence, and improve the overall quality and integrity of a manuscript before submission.
